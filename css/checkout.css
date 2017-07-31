@@ -1,0 +1,104 @@
+ #shopping-cart-body{
+     background-image: url(../images/background.jpg);
+}
+.shopping-cart-titel{
+    font-size: 40px;
+    color: #626262;
+    font-family: initial;
+	text-transform: uppercase;
+    padding: 20px;
+}
+#shopping-cart-product{
+    border-bottom: 2px solid black;
+}
+.check-product-name{
+    margin-left: 15%;
+    color: #626262;
+    font-weight: 600;
+    font-family: initial;
+    text-transform: uppercase;
+}
+.checkout-image img{
+    /*background-image: url(../images/background/background1.png);*/
+}
+.maruf-c{
+    float: left;
+}
+.maruf-c > div{
+    width: 250px;
+    margin-right: 40px;
+}
+.maruf-c > div > img{
+    margin-left: 0 !important;
+}
+.arman-wrap{
+    display: table;
+}
+.product-details-name {
+    margin-left: 10px;
+}
+.product-color-text{
+    margin-left: 20px;
+}
+.total-text{
+	font-size: 40px;
+    color: #626262;
+    float: right;
+}
+.check-button {
+    background-color: #b74b3e;
+    border-radius: 10px;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+    float: right;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.pay-button {
+    background-color: #b74b3e;
+    border-radius: 10px;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+    float: right;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.pay-button-text{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+} 
+.check-button-text{
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+} 
+/******************************************************
+                       media
+*******************************************************/
+@media screen and (max-width: 1400px) {
+	.checkout-image img{
+    margin-left: 20%;
+}
+}
+@media screen and (max-width: 410px) {
+	.checkout-image img{
+    margin-left: 5%;
+}
+}
+@media screen and (max-width: 1130px) {
+	.shopping-cart-titel {
+    margin-top: 40px
+}
+}
+@media screen and (max-width: 760px) {
+	.check-product-name{
+	    margin-bottom: 15px;
+		 margin-left: 0%;
+}
+}
+.cards-image {
+    height: 64px;
+    width: 271px;
+    cursor: pointer;
+}

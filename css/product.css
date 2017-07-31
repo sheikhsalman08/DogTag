@@ -1,0 +1,26 @@
+.product-titel{
+    font-size: 38px;
+    color: #343434;
+    text-transform: uppercase;
+    font-family: initial;
+    margin-bottom: 45px;
+    font-weight: 600;
+}
+.product-des{
+    font-size: 19px;
+    line-height: inherit;
+    font-family: initial;
+	border-top: 2px solid #111;
+    border-bottom: 2px solid #111;
+}
+.product-details img{
+   width: 100%;
+	margin-top: 15%;
+}
+.product-price{
+    float: right;
+    font-size: 25px;
+    margin-top: 25px;
+    color: #7c2d1b;
+	margin-bottom: 70px;
+}

@@ -1,0 +1,148 @@
+#login-body{
+   background-image: url(../images/background.jpg);
+}
+.login-titel{
+    font-size: 30px;
+    color: #b04337;
+    text-transform: uppercase;
+    font-family: initial;
+	margin-bottom: 40px;
+	    margin-left: 20px;
+} 
+.login-titel1{
+    font-size: 30px;
+    color: #b04337;
+    text-transform: uppercase;
+    font-family: initial;
+	margin-bottom: 40px;
+	    margin-left: 20px;
+} 
+.new-customer{
+    margin-top: 20px;
+    font-size: 33px;
+    font-family: initial;
+    margin-left: 30px;
+    color: #b05283;
+}
+.login-para{
+   margin-top: 20px;
+   line-height: 2;
+   margin: 10px;
+}
+.create-button {
+    background-color: #b74b3e;
+    border-radius: 10px;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+    float: right;
+	margin-right: 10px;
+    margin-top: 20px;
+}
+.create-button1 {
+    background-color: #b74b3e;
+    border-radius: 10px;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+    float: left;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+.create-button-text{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+} 
+.create-box{
+    height: 228px;
+    border: 1px dashed #c0bcb3;
+    width: 96%;
+	margin-bottom: 30px;
+}
+.create-box1{
+    height: 380px;
+    border: 1px dashed #c0bcb3;
+    width: 96%;
+	margin-bottom: 30px;
+}
+.create-box2{
+    height: 600px;
+    border: 1px dashed #c0bcb3;
+    width: 96%;
+	margin-bottom: 30px;
+}
+.login-description{
+    margin-left: 30px;
+    font-size: 16px;
+	color: #6c637b;
+}
+.email-tag{
+    color: #61615b;
+    font-size: 14px;
+    font-family: monospace;
+}
+.email-fild{
+    margin-top: 2%;
+    width: 60%;
+}
+.password-fild{
+    margin-top: 2%;
+    width: 60%;
+}
+.shopping-cart-addres{
+    margin-left: 10%;
+    margin-bottom: 30px;
+    font-family: initial;
+    font-weight: 700;
+    font-size: 50px;
+}
+/***************************************************
+                     media
+****************************************************/
+@media screen and (max-width: 1260px) {
+    .create-box{
+    height: 260px;
+}
+}
+@media screen and (max-width: 1180px) {
+    .create-box1{
+    height: 420px;
+}
+	.login-titel{
+    margin-top: 80px;
+} 
+}
+@media screen and (max-width: 990px) {
+    .create-box{
+    height: 300px;
+}
+}
+@media screen and (max-width: 415px) {
+    .create-box{
+    height: 370px;
+}
+	.create-button-text{
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+} 
+}
+@media screen and (max-width: 360px) {
+	.create-box{
+    height: 450px;
+}
+	.create-box1{
+    height: 480px;
+}
+	.create-button-text{
+    font-size: 8px;
+} 
+}
+.create-button-delete {
+    background-color: #589687;
+    border-radius: 10px;
+    padding: 4px 24px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}

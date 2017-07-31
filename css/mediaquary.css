@@ -1,0 +1,263 @@
+/********************************************
+              Top bar
+********************************************/
+
+@media screen and (max-width: 965px) {
+    .top-text {
+        margin-left: -35%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .top-text {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .top-text {
+        margin-left: -18%;
+    }
+}
+
+
+/********************************************
+              logo bar
+********************************************/
+
+@media screen and (max-width:1360px) {
+    .shopping-cart {
+        margin: 20px 0;
+        float: right;
+        width: 320px;
+        left: -10%;
+        top: 30px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .shopping-cart {
+        margin: 20px 0;
+        float: right;
+        width: 280px;
+        left: -10%;
+        top: 40px;
+    }
+}
+
+@media screen and (max-width:1045px) {
+    .shopping-cart {
+        margin: 20px 0;
+        float: right;
+        width: 230px;
+        left: -2%;
+        top: 40px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .shopping-cart {
+        width: 320px;
+        left: 2%;
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    #logo-bar {
+        height: 166px;
+    }
+    img#shopping {
+        margin-top: 0%;
+        margin-left: -200%;
+    }
+    .price {
+        margin-top: 4%;
+    }
+    .cart-button {
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-width: 852px) {
+    #email {
+        margin-left: 30px;
+    }
+    #logo-bar {
+        height: 298px;
+    }
+    img#shopping {
+        margin-top: -5%;
+        margin-left: -5%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    img#shopping {
+        margin-top: -8%;
+        margin-left: -8%;
+    }
+    #logo-bar {
+        height: 245px;
+    }
+    #email {
+        margin-left: 10px;
+    }
+    .all-order {
+        margin-top: -1%;
+    }
+}
+@media screen and (max-width: 780px) {
+    #logo-bar {
+        height: 315px;
+    }
+}
+
+@media screen and (max-width: 305px) {
+    #logo-bar {
+        height: 47%;
+    }
+    img#shopping {
+        margin-left: 13%;
+        margin-top: -6%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .free-shipping {
+        text-align: center;
+    }
+    .all-order {
+        text-align: center;
+    }
+    .two-font {
+        margin-left: 18%;
+    }
+    .logo-pic img {
+        margin-left: 25%;
+    }
+    #email {
+        margin-left: 17%;
+    }
+    #footer {
+        height: 450px;
+    }
+    img#shopping {
+        margin-left: 0%;
+        margin-top: -13%;
+    }
+    .shopping-cart {
+        margin: 20px 0;
+        width: 255px;
+        left: 16%;
+        top: 20px;
+    }
+    .price {
+        margin-top: 4%;
+    }
+    .cart-button {
+        margin-top: 4%;
+    }
+}
+
+
+/**************************************
+                   Menu
+***************************************/
+
+@media screen and (max-width:1170px) {
+    ul.topnav li:not(:first-child) {
+        display: none;
+    }
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    ul.topnav.responsive {
+        position: relative;
+    }
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+    .mySlides {
+        height: 400px !important;
+        width: 100%;
+    }
+    ul.topnav {
+        height: auto;
+        display: block;
+        max-height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        width: 100%;
+    }
+}
+
+
+/**************************************
+                   Menu
+***************************************/
+
+@media screen and (max-width: 1125px) {
+    .cart-button {
+        margin-top: 42%;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .price {
+        margin-left: -163%;
+        margin-top: 143%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .price {
+        margin-left: 24%;
+        margin-top: -11%;
+    }
+    .cart-button {
+        margin-top: -8%;
+        margin-left: 49%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .price {
+        margin-left: 24%;
+        margin-top: -18%;
+    }
+    .cart-button {
+        margin-top: -13%;
+        margin-left: 49%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .price {
+        margin-left: 2%;
+        margin-top: -2%;
+    }
+    .cart-button {
+        margin-top: 1%;
+        margin-left: -1%;
+    }
+}
+/**************************************
+                   Menu
+***************************************/
