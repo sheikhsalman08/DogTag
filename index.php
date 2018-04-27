@@ -226,16 +226,16 @@
                                         <!--end shopping-cart-header -->
                                          <style>
 									.potrait-frame-cart{
-									  height:100px;
-									  width:97px;
+									  /*height:100px;*/
+									  width:157px;
 									  position: absolute;
 									  z-index: 10;
 									}
 									.potraitImg-cart {
 										object-fit: cover;
-										height: 94px;
-										width: 76px;
-										margin-left: 12px;
+										/*height: 100px;*/
+										width: 157px;
+										/*margin-left: 12px;*/
 									}
 								</style>
 
@@ -301,60 +301,7 @@ while($fetches = mysqli_fetch_assoc($query)) :
                         </li>
                     </ul>
          </section><!-------------------section-menu----bar----------------->
-		 <section>
-		    <div class="">
-				<div class="">
-					<div class="">
-						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="8000">
-						  <!-- Indicators -->
-						  <ol class="carousel-indicators">
-							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-
-						  </ol>
-
-						  <!-- Wrapper for slides -->
-						  <div class="carousel-inner" role="listbox">
-								  <?php 
-								  $find_active_class = 0;
-								  	$query = $dog_tag->show_sorted_row_values('slider_images','slider_image_id','DESC');
-								  while($fetches = mysqli_fetch_assoc($query)) :
-								  ?>
-							
-									<?php if($find_active_class == 0) :?>
-										<div class="item active">
-									<?php else: ?>
-										<div class="item">
-									 <?php endif; ?>
-								
-								
-								  <a href="<?php echo $fetches['slider_link']; ?>" >
-								  <img src="data:image;base64,<?php echo $fetches['slider_image']; ?>" alt="" />
-								  </a>
-									</div>
-							<?php 
-							
-							$find_active_class++;
-							endwhile;
-							?>
-						</div>
-						  <!-- Controls -->
-						  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						  </a>
-						  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						  </a>
-						</div>
-					</div>
-				</div>
-			</div>
-		 </section><!----------------------section--slider-------------------------------------------------->
+		
 		 <section id="main-body">
 		     <div class="conatiner-fluid">
 			    <div class="row">
@@ -464,7 +411,8 @@ while($fetches = mysqli_fetch_assoc($query)) :
 									  <section>
 										  <div class="cols-sm-12">
 											  <div class="col-sm-4">
-												  <input type="checkbox" name="tagEnable" id="tag-two-enable" class="check-box"><strong> Edit Tag 2</strong>  <br><br><br>
+												  <!-- <input type="checkbox" name="tagEnable" id="tag-two-enable" class="check-box"> -->
+												  <strong> Edit Tag 2</strong>  <br><br><br>
 												  <p class="avilable">The Available Characters are:</p>
 							   <p class="letter">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9 & , . - / ( ) @ * + ! ? " ' : ; $ < #</p>
 											  </div>

@@ -7,9 +7,9 @@
 	/*
 		while in localhost
 	*/
-//  	$dog_tag = new dog_ruff('localhost','root','');
-//  	$dog_tag -> create_database('dog_tag');
-// define("website_url","localhost/dog_tag/index.php");
+ 	$dog_tag = new dog_ruff('localhost','root','');
+ 	$dog_tag -> create_database('dog_tag');
+define("website_url","localhost/dog_tag/index.php");
 
         /*
 		while in moldur
@@ -21,9 +21,9 @@
 	/*
 		while in dogxtar.com
 	*/
- 	$dog_tag = new dog_ruff('quasar','ruff','rotorway');
- 	$dog_tag -> create_database('dogtest');
-define("website_url","http://dogxtar.com/index.php");
+//  	$dog_tag = new dog_ruff('quasar','ruff','rotorway');
+//  	$dog_tag -> create_database('dogtest');
+// define("website_url","http://dogxtar.com/index.php");
 
 		
 

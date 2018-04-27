@@ -252,58 +252,7 @@ while($fetches = mysqli_fetch_assoc($query)) :
                         </li>
                     </ul>
          </section><!-------------------section-menu----bar----------------->
-		 <section>
-		    <div class="">
-				<div class="">
-					<div class="">
-						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-						  <!-- Indicators -->
-						  <ol class="carousel-indicators">
-							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-
-						  </ol>
-
-						  <!-- Wrapper for slides -->
-						  <div class="carousel-inner" role="listbox">
-								  <?php 
-								  $find_active_class = 0;
-								  	$query = $dog_tag->show_sorted_row_values('slider_images','slider_image_id','DESC');
-								  while($fetches = mysqli_fetch_assoc($query)) :
-								  ?>
-							
-									<?php if($find_active_class == 0) :?>
-										<div class="item active">
-									<?php else: ?>
-										<div class="item">
-									 <?php endif; ?>
-								
-							
-								  <img src="data:image;base64,<?php echo $fetches['slider_image']; ?>" alt="" >
-									</div>
-							<?php 
-							
-							$find_active_class++;
-							endwhile;
-							?>
-						</div>
-						  <!-- Controls -->
-						  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						  </a>
-						  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						  </a>
-						</div>
-					</div>
-				</div>
-			</div>
-		 </section><!----------------------section--slider-------------------------------------------------->
+		
           
           
 
